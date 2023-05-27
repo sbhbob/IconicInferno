@@ -9,8 +9,36 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        ZStack {
-            Background()
+        NavigationStack {
+            ZStack {
+                Background()
+                
+                VStack {
+                    OrangeTitleText(text: "PREPARE\nfor\n BATTLE!")
+                    
+                    Image("cage")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 400, height: 400)
+                    
+                    HStack {
+                        GreyButton(text: "Options", destination: OptionsView())
+                        
+                        .padding(.trailing)
+                        .padding(.trailing)
+                        
+                        GreyButton(text: "Begin", destination: BattleEnvironmentSelectionView())
+                    }
+                }
+            }
+            .navigationBarItems(
+                trailing: NavigationLink(
+                    destination: InstructionsView(),
+                    label: {
+                        Image(systemName: "questionmark.diamond")
+                    }
+                )
+            )
         }
     }
 }
