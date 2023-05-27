@@ -11,6 +11,14 @@
 		EA1A64E82A21969300D8A42E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64E72A21969300D8A42E /* ContentView.swift */; };
 		EA1A64EA2A21969A00D8A42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A64E92A21969A00D8A42E /* Assets.xcassets */; };
 		EA1A64ED2A21969A00D8A42E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A64EC2A21969A00D8A42E /* Preview Assets.xcassets */; };
+		EA1A64F42A219CB200D8A42E /* CharacterStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64F32A219CB200D8A42E /* CharacterStructs.swift */; };
+		EA1A64F62A219CC300D8A42E /* RealLifeCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64F52A219CC300D8A42E /* RealLifeCharacters.swift */; };
+		EA1A64F82A219CCF00D8A42E /* DetermineWinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64F72A219CCF00D8A42E /* DetermineWinner.swift */; };
+		EA1A64FA2A219CDA00D8A42E /* StatusEffectStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64F92A219CDA00D8A42E /* StatusEffectStructs.swift */; };
+		EA1A64FC2A219CE400D8A42E /* Randomizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64FB2A219CE400D8A42E /* Randomizers.swift */; };
+		EA1A64FE2A219CEF00D8A42E /* DetermineEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */; };
+		EA1A65002A219CF700D8A42E /* WinDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64FF2A219CF600D8A42E /* WinDescription.swift */; };
+		EA1A65022A219D0B00D8A42E /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65012A219D0A00D8A42E /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		EA1A64E72A21969300D8A42E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA1A64E92A21969A00D8A42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1A64EC2A21969A00D8A42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA1A64F32A219CB200D8A42E /* CharacterStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterStructs.swift; sourceTree = "<group>"; };
+		EA1A64F52A219CC300D8A42E /* RealLifeCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealLifeCharacters.swift; sourceTree = "<group>"; };
+		EA1A64F72A219CCF00D8A42E /* DetermineWinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetermineWinner.swift; sourceTree = "<group>"; };
+		EA1A64F92A219CDA00D8A42E /* StatusEffectStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusEffectStructs.swift; sourceTree = "<group>"; };
+		EA1A64FB2A219CE400D8A42E /* Randomizers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Randomizers.swift; sourceTree = "<group>"; };
+		EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetermineEnvironment.swift; sourceTree = "<group>"; };
+		EA1A64FF2A219CF600D8A42E /* WinDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinDescription.swift; sourceTree = "<group>"; };
+		EA1A65012A219D0A00D8A42E /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				EA1A64E52A21969300D8A42E /* IconicInfernoApp.swift */,
+				EA1A64F32A219CB200D8A42E /* CharacterStructs.swift */,
+				EA1A64F52A219CC300D8A42E /* RealLifeCharacters.swift */,
+				EA1A64F92A219CDA00D8A42E /* StatusEffectStructs.swift */,
+				EA1A64F72A219CCF00D8A42E /* DetermineWinner.swift */,
+				EA1A64FB2A219CE400D8A42E /* Randomizers.swift */,
+				EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */,
+				EA1A64FF2A219CF600D8A42E /* WinDescription.swift */,
+				EA1A65012A219D0A00D8A42E /* GameManager.swift */,
 				EA1A64E72A21969300D8A42E /* ContentView.swift */,
 				EA1A64E92A21969A00D8A42E /* Assets.xcassets */,
 				EA1A64EB2A21969A00D8A42E /* Preview Content */,
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1A65002A219CF700D8A42E /* WinDescription.swift in Sources */,
 				EA1A64E82A21969300D8A42E /* ContentView.swift in Sources */,
+				EA1A64FA2A219CDA00D8A42E /* StatusEffectStructs.swift in Sources */,
 				EA1A64E62A21969300D8A42E /* IconicInfernoApp.swift in Sources */,
+				EA1A64F42A219CB200D8A42E /* CharacterStructs.swift in Sources */,
+				EA1A64F62A219CC300D8A42E /* RealLifeCharacters.swift in Sources */,
+				EA1A64FC2A219CE400D8A42E /* Randomizers.swift in Sources */,
+				EA1A64F82A219CCF00D8A42E /* DetermineWinner.swift in Sources */,
+				EA1A64FE2A219CEF00D8A42E /* DetermineEnvironment.swift in Sources */,
+				EA1A65022A219D0B00D8A42E /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
