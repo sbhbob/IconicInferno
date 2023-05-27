@@ -10,13 +10,22 @@ import Foundation
 // MARK: STATUS EFFECT CLASS
 
 
-class StatusEffect {
+class StatusEffect: Identifiable, Hashable {
+    var id = UUID()
     var name: String
     var powerLevel: Int
     
     init(name: String, powerLevel: Int) {
         self.name = name
         self.powerLevel = powerLevel
+    }
+    
+    static func == (lhs: StatusEffect, rhs: StatusEffect) -> Bool {
+        return lhs.name == rhs.name
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
     }
 }
 
@@ -124,7 +133,7 @@ class UltraPerception: Buff {
 
 class JackedPikachu: Buff {
     init() {
-        super.init(name: "Once beat the Main Six with nothing but a jacked Pikachu", powerLevel: 35)
+        super.init(name: "Once beat the Final Four with nothing but a jacked Pikachu", powerLevel: 35)
     }
 }
 

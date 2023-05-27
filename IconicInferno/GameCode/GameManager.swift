@@ -6,13 +6,15 @@
 //
 
 import Foundation
-class GameManager {
+class GameManager: ObservableObject {
     static let shared = GameManager()
     
     var player1: Character?
     var player2: Character?
     var winner: Character?
     var battleEnvironment: Element?
+    
+    @Published var shouldShowAlert = false
     
     func startGame() {
         guard let player1 = player1, let player2 = player2, let environment = battleEnvironment else {
