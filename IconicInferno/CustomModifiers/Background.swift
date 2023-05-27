@@ -16,8 +16,8 @@ struct Background: View {
     }
 }
 
-struct Background_Previews: PreviewProvider {
-    static var previews: some View {
-        Background()
-    }
-}
+//struct Background_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Background()
+//    }
+//}

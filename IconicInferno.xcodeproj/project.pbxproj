@@ -26,6 +26,11 @@
 		EA1A65112A219EC000D8A42E /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65102A219EC000D8A42E /* OptionsView.swift */; };
 		EA1A65132A219ECD00D8A42E /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65122A219ECD00D8A42E /* InstructionsView.swift */; };
 		EA1A65162A21A06900D8A42E /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65152A21A06900D8A42E /* Background.swift */; };
+		EA1A65182A2220C600D8A42E /* Halo3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA1A65172A2220A900D8A42E /* Halo3.ttf */; };
+		EA1A651D2A22233A00D8A42E /* OrangeTitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A651C2A22233A00D8A42E /* OrangeTitleText.swift */; };
+		EA1A651F2A22507D00D8A42E /* EnvironmentStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A651E2A22507C00D8A42E /* EnvironmentStructs.swift */; };
+		EA1A65212A22541F00D8A42E /* GreyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65202A22541F00D8A42E /* GreyButton.swift */; };
+		EA1A65232A22592700D8A42E /* YellowSubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65222A22592700D8A42E /* YellowSubtitleText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +54,12 @@
 		EA1A65102A219EC000D8A42E /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		EA1A65122A219ECD00D8A42E /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
 		EA1A65152A21A06900D8A42E /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		EA1A65172A2220A900D8A42E /* Halo3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Halo3.ttf; sourceTree = "<group>"; };
+		EA1A65192A22220F00D8A42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EA1A651C2A22233A00D8A42E /* OrangeTitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeTitleText.swift; sourceTree = "<group>"; };
+		EA1A651E2A22507C00D8A42E /* EnvironmentStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentStructs.swift; sourceTree = "<group>"; };
+		EA1A65202A22541F00D8A42E /* GreyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyButton.swift; sourceTree = "<group>"; };
+		EA1A65222A22592700D8A42E /* YellowSubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowSubtitleText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +92,14 @@
 		EA1A64E42A21969200D8A42E /* IconicInferno */ = {
 			isa = PBXGroup;
 			children = (
+				EA1A65192A22220F00D8A42E /* Info.plist */,
 				EA1A64E52A21969300D8A42E /* IconicInfernoApp.swift */,
 				EA1A65032A219DAB00D8A42E /* GameCode */,
 				EA1A65052A219DE900D8A42E /* Views */,
 				EA1A65142A219FBC00D8A42E /* CustomModifiers */,
 				EA1A64EB2A21969A00D8A42E /* Preview Content */,
 				EA1A64E92A21969A00D8A42E /* Assets.xcassets */,
+				EA1A65172A2220A900D8A42E /* Halo3.ttf */,
 			);
 			path = IconicInferno;
 			sourceTree = "<group>";
@@ -108,6 +121,7 @@
 				EA1A64F72A219CCF00D8A42E /* DetermineWinner.swift */,
 				EA1A64FB2A219CE400D8A42E /* Randomizers.swift */,
 				EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */,
+				EA1A651E2A22507C00D8A42E /* EnvironmentStructs.swift */,
 				EA1A64FF2A219CF600D8A42E /* WinDescription.swift */,
 				EA1A65012A219D0A00D8A42E /* GameManager.swift */,
 			);
@@ -132,6 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				EA1A65152A21A06900D8A42E /* Background.swift */,
+				EA1A651C2A22233A00D8A42E /* OrangeTitleText.swift */,
+				EA1A65202A22541F00D8A42E /* GreyButton.swift */,
+				EA1A65222A22592700D8A42E /* YellowSubtitleText.swift */,
 			);
 			path = CustomModifiers;
 			sourceTree = "<group>";
@@ -194,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA1A65182A2220C600D8A42E /* Halo3.ttf in Resources */,
 				EA1A64ED2A21969A00D8A42E /* Preview Assets.xcassets in Resources */,
 				EA1A64EA2A21969A00D8A42E /* Assets.xcassets in Resources */,
 			);
@@ -210,7 +228,9 @@
 				EA1A65132A219ECD00D8A42E /* InstructionsView.swift in Sources */,
 				EA1A64FA2A219CDA00D8A42E /* StatusEffectStructs.swift in Sources */,
 				EA1A65092A219E5C00D8A42E /* BattleEnvironmentSelectionView.swift in Sources */,
+				EA1A65232A22592700D8A42E /* YellowSubtitleText.swift in Sources */,
 				EA1A65162A21A06900D8A42E /* Background.swift in Sources */,
+				EA1A651D2A22233A00D8A42E /* OrangeTitleText.swift in Sources */,
 				EA1A65112A219EC000D8A42E /* OptionsView.swift in Sources */,
 				EA1A64E62A21969300D8A42E /* IconicInfernoApp.swift in Sources */,
 				EA1A64F42A219CB200D8A42E /* CharacterStructs.swift in Sources */,
@@ -222,6 +242,8 @@
 				EA1A650B2A219E7C00D8A42E /* PlayerOneCharacterSelectionView.swift in Sources */,
 				EA1A650D2A219E9200D8A42E /* PlayerTwoCharacterSelectionView.swift in Sources */,
 				EA1A64FE2A219CEF00D8A42E /* DetermineEnvironment.swift in Sources */,
+				EA1A651F2A22507D00D8A42E /* EnvironmentStructs.swift in Sources */,
+				EA1A65212A22541F00D8A42E /* GreyButton.swift in Sources */,
 				EA1A65022A219D0B00D8A42E /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +375,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IconicInferno/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IconicInferno/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -381,6 +404,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"IconicInferno/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IconicInferno/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
