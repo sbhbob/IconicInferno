@@ -31,6 +31,9 @@
 		EA1A651F2A22507D00D8A42E /* EnvironmentStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A651E2A22507C00D8A42E /* EnvironmentStructs.swift */; };
 		EA1A65212A22541F00D8A42E /* GreyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65202A22541F00D8A42E /* GreyButton.swift */; };
 		EA1A65232A22592700D8A42E /* YellowSubtitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65222A22592700D8A42E /* YellowSubtitleText.swift */; };
+		EA1A65252A22617100D8A42E /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65242A22617100D8A42E /* FlipView.swift */; };
+		EA1A65272A2262D700D8A42E /* FrontOfCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65262A2262D700D8A42E /* FrontOfCard.swift */; };
+		EA1A65292A22735F00D8A42E /* BackOfCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65282A22735F00D8A42E /* BackOfCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +63,9 @@
 		EA1A651E2A22507C00D8A42E /* EnvironmentStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentStructs.swift; sourceTree = "<group>"; };
 		EA1A65202A22541F00D8A42E /* GreyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyButton.swift; sourceTree = "<group>"; };
 		EA1A65222A22592700D8A42E /* YellowSubtitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowSubtitleText.swift; sourceTree = "<group>"; };
+		EA1A65242A22617100D8A42E /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		EA1A65262A2262D700D8A42E /* FrontOfCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontOfCard.swift; sourceTree = "<group>"; };
+		EA1A65282A22735F00D8A42E /* BackOfCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOfCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,9 @@
 				EA1A651C2A22233A00D8A42E /* OrangeTitleText.swift */,
 				EA1A65202A22541F00D8A42E /* GreyButton.swift */,
 				EA1A65222A22592700D8A42E /* YellowSubtitleText.swift */,
+				EA1A65242A22617100D8A42E /* FlipView.swift */,
+				EA1A65262A2262D700D8A42E /* FrontOfCard.swift */,
+				EA1A65282A22735F00D8A42E /* BackOfCard.swift */,
 			);
 			path = CustomModifiers;
 			sourceTree = "<group>";
@@ -225,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1A65002A219CF700D8A42E /* WinDescription.swift in Sources */,
+				EA1A65252A22617100D8A42E /* FlipView.swift in Sources */,
 				EA1A65132A219ECD00D8A42E /* InstructionsView.swift in Sources */,
 				EA1A64FA2A219CDA00D8A42E /* StatusEffectStructs.swift in Sources */,
 				EA1A65092A219E5C00D8A42E /* BattleEnvironmentSelectionView.swift in Sources */,
@@ -235,12 +245,14 @@
 				EA1A64E62A21969300D8A42E /* IconicInfernoApp.swift in Sources */,
 				EA1A64F42A219CB200D8A42E /* CharacterStructs.swift in Sources */,
 				EA1A650F2A219EA400D8A42E /* WinnerIsView.swift in Sources */,
+				EA1A65272A2262D700D8A42E /* FrontOfCard.swift in Sources */,
 				EA1A64F62A219CC300D8A42E /* RealLifeCharacters.swift in Sources */,
 				EA1A64FC2A219CE400D8A42E /* Randomizers.swift in Sources */,
 				EA1A65072A219E4800D8A42E /* LandingView.swift in Sources */,
 				EA1A64F82A219CCF00D8A42E /* DetermineWinner.swift in Sources */,
 				EA1A650B2A219E7C00D8A42E /* PlayerOneCharacterSelectionView.swift in Sources */,
 				EA1A650D2A219E9200D8A42E /* PlayerTwoCharacterSelectionView.swift in Sources */,
+				EA1A65292A22735F00D8A42E /* BackOfCard.swift in Sources */,
 				EA1A64FE2A219CEF00D8A42E /* DetermineEnvironment.swift in Sources */,
 				EA1A651F2A22507D00D8A42E /* EnvironmentStructs.swift in Sources */,
 				EA1A65212A22541F00D8A42E /* GreyButton.swift in Sources */,

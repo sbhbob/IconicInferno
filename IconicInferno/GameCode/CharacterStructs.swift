@@ -9,7 +9,8 @@ import Foundation
 
 // MARK: CHARACTER CLASS
 
-class Character {
+class Character: Identifiable, Hashable {
+    var id = UUID()
     var name: String
     var powerLevel: Int
     var element: Element
@@ -19,6 +20,14 @@ class Character {
         self.name = name
         self.powerLevel = powerLevel
         self.element = element
+    }
+    
+    static func == (lhs: Character, rhs: Character) -> Bool {
+        return lhs.name == rhs.name
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
     }
 }
 
