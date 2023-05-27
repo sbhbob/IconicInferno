@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EA1A64E62A21969300D8A42E /* IconicInfernoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64E52A21969300D8A42E /* IconicInfernoApp.swift */; };
-		EA1A64E82A21969300D8A42E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64E72A21969300D8A42E /* ContentView.swift */; };
 		EA1A64EA2A21969A00D8A42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A64E92A21969A00D8A42E /* Assets.xcassets */; };
 		EA1A64ED2A21969A00D8A42E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA1A64EC2A21969A00D8A42E /* Preview Assets.xcassets */; };
 		EA1A64F42A219CB200D8A42E /* CharacterStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64F32A219CB200D8A42E /* CharacterStructs.swift */; };
@@ -19,12 +18,19 @@
 		EA1A64FE2A219CEF00D8A42E /* DetermineEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */; };
 		EA1A65002A219CF700D8A42E /* WinDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A64FF2A219CF600D8A42E /* WinDescription.swift */; };
 		EA1A65022A219D0B00D8A42E /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65012A219D0A00D8A42E /* GameManager.swift */; };
+		EA1A65072A219E4800D8A42E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65062A219E4800D8A42E /* LandingView.swift */; };
+		EA1A65092A219E5C00D8A42E /* BattleEnvironmentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65082A219E5C00D8A42E /* BattleEnvironmentSelectionView.swift */; };
+		EA1A650B2A219E7C00D8A42E /* PlayerOneCharacterSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A650A2A219E7C00D8A42E /* PlayerOneCharacterSelectionView.swift */; };
+		EA1A650D2A219E9200D8A42E /* PlayerTwoCharacterSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A650C2A219E9200D8A42E /* PlayerTwoCharacterSelectionView.swift */; };
+		EA1A650F2A219EA400D8A42E /* WinnerIsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A650E2A219EA400D8A42E /* WinnerIsView.swift */; };
+		EA1A65112A219EC000D8A42E /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65102A219EC000D8A42E /* OptionsView.swift */; };
+		EA1A65132A219ECD00D8A42E /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65122A219ECD00D8A42E /* InstructionsView.swift */; };
+		EA1A65162A21A06900D8A42E /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65152A21A06900D8A42E /* Background.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA1A64E22A21969200D8A42E /* IconicInferno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconicInferno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1A64E52A21969300D8A42E /* IconicInfernoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconicInfernoApp.swift; sourceTree = "<group>"; };
-		EA1A64E72A21969300D8A42E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA1A64E92A21969A00D8A42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA1A64EC2A21969A00D8A42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA1A64F32A219CB200D8A42E /* CharacterStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterStructs.swift; sourceTree = "<group>"; };
@@ -35,6 +41,14 @@
 		EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetermineEnvironment.swift; sourceTree = "<group>"; };
 		EA1A64FF2A219CF600D8A42E /* WinDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinDescription.swift; sourceTree = "<group>"; };
 		EA1A65012A219D0A00D8A42E /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		EA1A65062A219E4800D8A42E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		EA1A65082A219E5C00D8A42E /* BattleEnvironmentSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleEnvironmentSelectionView.swift; sourceTree = "<group>"; };
+		EA1A650A2A219E7C00D8A42E /* PlayerOneCharacterSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerOneCharacterSelectionView.swift; sourceTree = "<group>"; };
+		EA1A650C2A219E9200D8A42E /* PlayerTwoCharacterSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTwoCharacterSelectionView.swift; sourceTree = "<group>"; };
+		EA1A650E2A219EA400D8A42E /* WinnerIsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerIsView.swift; sourceTree = "<group>"; };
+		EA1A65102A219EC000D8A42E /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		EA1A65122A219ECD00D8A42E /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		EA1A65152A21A06900D8A42E /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,17 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				EA1A64E52A21969300D8A42E /* IconicInfernoApp.swift */,
-				EA1A64F32A219CB200D8A42E /* CharacterStructs.swift */,
-				EA1A64F52A219CC300D8A42E /* RealLifeCharacters.swift */,
-				EA1A64F92A219CDA00D8A42E /* StatusEffectStructs.swift */,
-				EA1A64F72A219CCF00D8A42E /* DetermineWinner.swift */,
-				EA1A64FB2A219CE400D8A42E /* Randomizers.swift */,
-				EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */,
-				EA1A64FF2A219CF600D8A42E /* WinDescription.swift */,
-				EA1A65012A219D0A00D8A42E /* GameManager.swift */,
-				EA1A64E72A21969300D8A42E /* ContentView.swift */,
-				EA1A64E92A21969A00D8A42E /* Assets.xcassets */,
+				EA1A65032A219DAB00D8A42E /* GameCode */,
+				EA1A65052A219DE900D8A42E /* Views */,
+				EA1A65142A219FBC00D8A42E /* CustomModifiers */,
 				EA1A64EB2A21969A00D8A42E /* Preview Content */,
+				EA1A64E92A21969A00D8A42E /* Assets.xcassets */,
 			);
 			path = IconicInferno;
 			sourceTree = "<group>";
@@ -89,6 +97,43 @@
 				EA1A64EC2A21969A00D8A42E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA1A65032A219DAB00D8A42E /* GameCode */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A64F32A219CB200D8A42E /* CharacterStructs.swift */,
+				EA1A64F52A219CC300D8A42E /* RealLifeCharacters.swift */,
+				EA1A64F92A219CDA00D8A42E /* StatusEffectStructs.swift */,
+				EA1A64F72A219CCF00D8A42E /* DetermineWinner.swift */,
+				EA1A64FB2A219CE400D8A42E /* Randomizers.swift */,
+				EA1A64FD2A219CEF00D8A42E /* DetermineEnvironment.swift */,
+				EA1A64FF2A219CF600D8A42E /* WinDescription.swift */,
+				EA1A65012A219D0A00D8A42E /* GameManager.swift */,
+			);
+			path = GameCode;
+			sourceTree = "<group>";
+		};
+		EA1A65052A219DE900D8A42E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A65062A219E4800D8A42E /* LandingView.swift */,
+				EA1A65082A219E5C00D8A42E /* BattleEnvironmentSelectionView.swift */,
+				EA1A650A2A219E7C00D8A42E /* PlayerOneCharacterSelectionView.swift */,
+				EA1A650C2A219E9200D8A42E /* PlayerTwoCharacterSelectionView.swift */,
+				EA1A650E2A219EA400D8A42E /* WinnerIsView.swift */,
+				EA1A65102A219EC000D8A42E /* OptionsView.swift */,
+				EA1A65122A219ECD00D8A42E /* InstructionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA1A65142A219FBC00D8A42E /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A65152A21A06900D8A42E /* Background.swift */,
+			);
+			path = CustomModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,13 +207,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1A65002A219CF700D8A42E /* WinDescription.swift in Sources */,
-				EA1A64E82A21969300D8A42E /* ContentView.swift in Sources */,
+				EA1A65132A219ECD00D8A42E /* InstructionsView.swift in Sources */,
 				EA1A64FA2A219CDA00D8A42E /* StatusEffectStructs.swift in Sources */,
+				EA1A65092A219E5C00D8A42E /* BattleEnvironmentSelectionView.swift in Sources */,
+				EA1A65162A21A06900D8A42E /* Background.swift in Sources */,
+				EA1A65112A219EC000D8A42E /* OptionsView.swift in Sources */,
 				EA1A64E62A21969300D8A42E /* IconicInfernoApp.swift in Sources */,
 				EA1A64F42A219CB200D8A42E /* CharacterStructs.swift in Sources */,
+				EA1A650F2A219EA400D8A42E /* WinnerIsView.swift in Sources */,
 				EA1A64F62A219CC300D8A42E /* RealLifeCharacters.swift in Sources */,
 				EA1A64FC2A219CE400D8A42E /* Randomizers.swift in Sources */,
+				EA1A65072A219E4800D8A42E /* LandingView.swift in Sources */,
 				EA1A64F82A219CCF00D8A42E /* DetermineWinner.swift in Sources */,
+				EA1A650B2A219E7C00D8A42E /* PlayerOneCharacterSelectionView.swift in Sources */,
+				EA1A650D2A219E9200D8A42E /* PlayerTwoCharacterSelectionView.swift in Sources */,
 				EA1A64FE2A219CEF00D8A42E /* DetermineEnvironment.swift in Sources */,
 				EA1A65022A219D0B00D8A42E /* GameManager.swift in Sources */,
 			);
