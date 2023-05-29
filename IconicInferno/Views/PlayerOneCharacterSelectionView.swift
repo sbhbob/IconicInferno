@@ -17,43 +17,68 @@ struct PlayerOneCharacterSelectionView: View {
     @State var charactersArray: [Character] = []
     @State var statusEffectArray: [StatusEffect] = []
     
+    @State private var showingPlayerTwoScreen = false
+    
     var body: some View {
         ZStack {
             Background()
-
+            
             VStack {
+                OrangeTitleText(text: "Player One")
                 HStack {
-                    
-                    ForEach(charactersArray, id: \.self) { character in
-                        FlipView(
+                    if let selectedCharacter = self.selectedCharacter {
+                        P1CharacterFlipView(
                             isFlipped: self.$isFlipped,
-                            front: FrontOfCard(name: character.name),
+                            selectedCharacter: $selectedCharacter,
+                            front: FrontOfCard(name: selectedCharacter.name),
                             back: BackOfCard()
                         )
-                        .onTapGesture {
-                            self.selectCharacter(character: character)
+                    } else {
+                        ForEach(charactersArray, id: \.self) { character in
+                            P1CharacterFlipView(
+                                isFlipped: self.$isFlipped,
+                                selectedCharacter: $selectedCharacter,
+                                character: character,
+                                front: FrontOfCard(name: character.name),
+                                back: BackOfCard()
+                            )
+                            .onTapGesture {
+                                self.selectCharacter(character: character)
+                                print(selectedCharacter?.name ?? "Empty")
+                            }
                         }
                     }
-                    
                 }
                 HStack {
-                    ForEach(statusEffectArray, id: \.self) { statusEffect in
-                        FlipView(
+                    if let selectedStatusEffect = self.selectedStatusEffect {
+                        P1StatusEffectFlipView(
                             isFlipped: self.$isFlipped,
-                            front: FrontOfCard(name: statusEffect.name),
+                            selectedStatusEffect: $selectedStatusEffect,
+                            front: FrontOfCard(name: selectedStatusEffect.name),
                             back: BackOfCard()
                         )
-                        .onTapGesture {
-                            self.selectStatusEffect(statusEffect: statusEffect)
-                            print(gameManager.player1!.name)
-                            print(gameManager.player1!.statusEffect!.name)
+                    } else {
+                        ForEach(statusEffectArray, id: \.self) { statusEffect in
+                            P1StatusEffectFlipView(
+                                isFlipped: self.$isFlipped,
+                                selectedStatusEffect: $selectedStatusEffect,
+                                statusEffect: statusEffect,
+                                front: FrontOfCard(name: statusEffect.name),
+                                back: BackOfCard()
+                            )
+                            .onTapGesture {
+                                self.selectStatusEffect(statusEffect: statusEffect)
+                                print(gameManager.player1!.name)
+                                print(gameManager.player1!.statusEffect!.name)
+                            }
                         }
                     }
-                    
                 }
                 
                 Button("FLIP") {
-                    isFlipped.toggle()
+                    withAnimation(.easeInOut(duration: 1)) {
+                        isFlipped.toggle()
+                    }
                 }
                 .font(.custom("Halo3", size: 25))
                 .foregroundColor(.yellow)
@@ -61,7 +86,23 @@ struct PlayerOneCharacterSelectionView: View {
                 .background(Color.gray)
                 .cornerRadius(10)
                 
-                GreyButton(text: "NEXT", destination: PlayerTwoCharacterSelectionView())
+                Button(action: {
+                    if selectedCharacter != nil && selectedStatusEffect != nil {
+                        self.showingPlayerTwoScreen = true
+                    } else {
+                        gameManager.shouldShowAlert = true
+                    }
+                }) {
+                    Text("NEXT")
+                        .font(.custom("Halo3", size: 30))
+                        .foregroundColor(.yellow)
+                        .padding()
+                        .background(Color.black)
+                        .cornerRadius(10)
+                }
+                .fullScreenCover(isPresented: $showingPlayerTwoScreen, content: {
+                    PlayerTwoCharacterSelectionView()
+                })
             }
             .onAppear {
                 charactersArray = Randomizers.getRandomCharacters()
@@ -77,15 +118,20 @@ struct PlayerOneCharacterSelectionView: View {
     }
     
     func selectCharacter(character: Character) {
+        print("Selecting character: \(character.name)")
         self.selectedCharacter = character
         gameManager.player1 = selectedCharacter
     }
     
     func selectStatusEffect(statusEffect: StatusEffect) {
+        print("Selecting status effect: \(statusEffect.name)") // Add this
         self.selectedStatusEffect = statusEffect
         gameManager.player1?.statusEffect = selectedStatusEffect
     }
 }
+
+
+
 
 
 
