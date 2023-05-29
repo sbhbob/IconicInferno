@@ -11,7 +11,7 @@ import SwiftUI
 struct IconicInfernoApp: App {
     var body: some Scene {
         WindowGroup {
-            WinnerIsView()
+            LandingView()
         }
     }
 }
