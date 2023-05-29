@@ -12,6 +12,7 @@ struct Background: View {
         Image("BackGround")
             .resizable()
             .scaledToFill()
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
     }
 }

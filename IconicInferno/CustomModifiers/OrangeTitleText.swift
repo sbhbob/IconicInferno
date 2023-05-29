@@ -17,6 +17,9 @@ struct OrangeTitleText: View {
             .shadow(color: .orange, radius: 2, x: 0, y: 2)
             .font(.custom("Halo3", size: 60))
             .multilineTextAlignment(.center)
+            .lineLimit(nil)
+            .fixedSize(horizontal: false, vertical: true)
+//            .padding(.horizontal)
     }
 }
 
