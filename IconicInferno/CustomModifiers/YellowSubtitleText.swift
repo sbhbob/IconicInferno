@@ -15,6 +15,9 @@ struct YellowSubtitleText: View {
             .shadow(color: .yellow, radius: 2, x: 0, y: 2)
             .font(.custom("Halo3", size: 40))
             .multilineTextAlignment(.center)
+            .lineLimit(nil)
+            .fixedSize(horizontal: false, vertical: true)
+//            .padding(.horizontal)
     }
 }
 
