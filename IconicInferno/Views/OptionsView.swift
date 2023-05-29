@@ -11,6 +11,7 @@ struct OptionsView: View {
     var body: some View {
         ZStack {
             Background()
+            
         }
     }
 }
