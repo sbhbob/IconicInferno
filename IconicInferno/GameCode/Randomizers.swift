@@ -26,7 +26,39 @@ struct Randomizers {
     }
     
     static func getRandomCharacters() -> [Character] {
-        let characterArray: [Character] = [Superman(), Batman(), SpiderMan(), Wolverine(), WonderWoman(), CaptainAmerica(), HalJordan(), WallyWest(), Hulk(), Daredevil(), DickGrayson(), IronMan(), JeanGrey(), Thor(), DreamOfTheEndless(), Rorschach(), BarbaraGordon(), Thing(), JamesGordon(), Catwoman(), TheSpirit(), ProfessorX(), Raphael(), YorickBrown(), Hellboy(), RickGrimes(), Punisher(), SwampThing(), JohnConstantine(), GreenArrow(), Deadpool(), TimDrake(), NickFury(), JesseCuster(), JudgeDredd(), Spawn(), TheCrow(), DoctorStrange(), Cyclops(), MrFantastic(), SilverSurfer(), Storm(), MartianManhunter(), Hawkeye(), SpiderJerusalem(), HumanTorch(), KittyPryde(), MitchellHundred(), BarryAllen(), BillyBatson(), BlackPanther(), Aquaman(), BuckyBarnes(), ElijahSnow(), JohnStewart(), Hawkman(), TheTick(), Beast(), BoosterGold(), FoneBone(), BlueBeetle(), DashiellBadHorse(), Blade(), RayPalmer(), Gambit(), InvisibleWoman(), HankPym(), IronFist(), ScottPilgrim(), Spectre(), Wildcat(), LukeCage(), JonahHex(), BlackWidow(), Marv(), TheRocketeer(), Namor(), SgtRock(), CaptainBritain(), Nightcrawler(), BlackCanary(), EricOGrady(), KonEl(), KaZar(), BlackLightning(), Michonne(), ReneeMontoya(), SheHulk(), MoonKnight(), GhostRider(), Cerebus(), UsagiYojimbo(), DonnaTroy(), Supergirl(), SavageDragon(), Falcon(), AdamStrange(), Nova(), Wasp(), BabyGroot()]
+        let _: [Character] = [Superman(), Batman(), SpiderMan(), Wolverine(), WonderWoman(), CaptainAmerica(), HalJordan(), WallyWest(), Hulk(), Daredevil(), DickGrayson(), IronMan(), JeanGrey(), Thor(), DreamOfTheEndless(), Rorschach(), BarbaraGordon(), Thing(), JamesGordon(), Catwoman(), TheSpirit(), ProfessorX(), Raphael(), YorickBrown(), Hellboy(), RickGrimes(), Punisher(), SwampThing(), JohnConstantine(), GreenArrow(), Deadpool(), TimDrake(), NickFury(), JesseCuster(), JudgeDredd(), Spawn(), TheCrow(), DoctorStrange(), Cyclops(), MrFantastic(), SilverSurfer(), Storm(), MartianManhunter(), Hawkeye(), SpiderJerusalem(), HumanTorch(), KittyPryde(), MitchellHundred(), BarryAllen(), BillyBatson(), BlackPanther(), Aquaman(), BuckyBarnes(), ElijahSnow(), JohnStewart(), Hawkman(), TheTick(), Beast(), BoosterGold(), FoneBone(), BlueBeetle(), DashiellBadHorse(), Blade(), RayPalmer(), Gambit(), InvisibleWoman(), HankPym(), IronFist(), ScottPilgrim(), Spectre(), Wildcat(), LukeCage(), JonahHex(), BlackWidow(), Marv(), TheRocketeer(), Namor(), SgtRock(), CaptainBritain(), Nightcrawler(), BlackCanary(), EricOGrady(), KonEl(), KaZar(), BlackLightning(), Michonne(), ReneeMontoya(), SheHulk(), MoonKnight(), GhostRider(), Cerebus(), UsagiYojimbo(), DonnaTroy(), Supergirl(), SavageDragon(), Falcon(), AdamStrange(), Nova(), Wasp(), BabyGroot()]
+        
+        let characterArray: [Character] = [
+            ToastGoblin(),
+            BoatStickler(),
+            GraveMaster(),
+            CloudLad(),
+            
+            glamHound(),
+            GloriousBastard(),
+            ForlornWitness(),
+            TorturedSoul(),
+            FortunateSoul(),
+            LlamaBaron(),
+            TambourineSailor(),
+            FortuitousTyrant(),
+            SilverBones(),
+            
+            WarLemon(),
+            TriumphantGeckbecker(),
+            FlintstoneShockFactory(),
+            TrapTwister(),
+            LegendaryWarning(),
+            AwestruckArtist(),
+            MistakenMountainMan(),
+            DepthCrawler(),
+            RigidHorseman(),
+            DigitMuncher(),
+            LunderBear(),
+            CollapsedLungfish(),
+            JudiciousParasite(),
+            ForgottenHorror()
+        ]
         
         var randomCharacters: [Character] = []
         // Loop until we have 3 characters in our result array

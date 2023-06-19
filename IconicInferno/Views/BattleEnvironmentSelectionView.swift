@@ -9,6 +9,7 @@ import SwiftUI
 
 struct BattleEnvironmentSelectionView: View {
     @State private var currentEnvironment: Environment? = nil
+    
     @State private var environments: [Environment] = [
         Environment(name: "Fire Cave", image: Image("FireCave"), element: .firecave),
         Environment(name: "Ocean", image: Image("Ocean"), element: .ocean),
@@ -26,6 +27,7 @@ struct BattleEnvironmentSelectionView: View {
         Environment(name: "Sewer", image: Image("Sewer"), element: .sewer),
     ]
 
+    
     @State private var timer: Timer? = nil
     @State private var targetEnvironment: Environment? = nil
 

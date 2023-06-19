@@ -34,6 +34,7 @@
 		EA1A65252A22617100D8A42E /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65242A22617100D8A42E /* FlipView.swift */; };
 		EA1A65272A2262D700D8A42E /* FrontOfCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65262A2262D700D8A42E /* FrontOfCard.swift */; };
 		EA1A65292A22735F00D8A42E /* BackOfCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1A65282A22735F00D8A42E /* BackOfCard.swift */; };
+		EA902EE22A25329500DEAA10 /* OriginalCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA902EE12A25329500DEAA10 /* OriginalCharacters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		EA1A65242A22617100D8A42E /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		EA1A65262A2262D700D8A42E /* FrontOfCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontOfCard.swift; sourceTree = "<group>"; };
 		EA1A65282A22735F00D8A42E /* BackOfCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackOfCard.swift; sourceTree = "<group>"; };
+		EA902EE12A25329500DEAA10 /* OriginalCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalCharacters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				EA1A65192A22220F00D8A42E /* Info.plist */,
 				EA1A64E52A21969300D8A42E /* IconicInfernoApp.swift */,
+				EA902EDF2A25326C00DEAA10 /* OriginalCharacters */,
 				EA1A65032A219DAB00D8A42E /* GameCode */,
 				EA1A65052A219DE900D8A42E /* Views */,
 				EA1A65142A219FBC00D8A42E /* CustomModifiers */,
@@ -160,6 +163,14 @@
 				EA1A65282A22735F00D8A42E /* BackOfCard.swift */,
 			);
 			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+		EA902EDF2A25326C00DEAA10 /* OriginalCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				EA902EE12A25329500DEAA10 /* OriginalCharacters.swift */,
+			);
+			path = OriginalCharacters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA1A65002A219CF700D8A42E /* WinDescription.swift in Sources */,
+				EA902EE22A25329500DEAA10 /* OriginalCharacters.swift in Sources */,
 				EA1A65252A22617100D8A42E /* FlipView.swift in Sources */,
 				EA1A65132A219ECD00D8A42E /* InstructionsView.swift in Sources */,
 				EA1A64FA2A219CDA00D8A42E /* StatusEffectStructs.swift in Sources */,
